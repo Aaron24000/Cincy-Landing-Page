@@ -1,42 +1,83 @@
 .body {
-    background-image: url("Louisville.jpg");
+    background: url("Louisville.jpg") no-repeat;
     height: 100%;
     width: 100%;
     font-family: sans-serif;
+    background-size: cover;
 }
 
-.body body {
-    height: 100%;
-    width: 100%;
-}
 
 .navbar img {
-    width: 60px;
-    margin-right: 300px;
+    width:  70px;
+    margin-right: 35px;
+    list-style: none;
 }
 
-.navbar li {
-    font-size: 25px;
+/* .navbar li {
+    font-size: 30px;
     list-style: none;
     display: inline-flex;
-    margin: 0px 50px;
+    margin: 0px 70px;
     cursor: pointer;
     color: white;
+} */
+.navbar nav {
+    width: 100%;
+    height: 60px;
+    background-color: rgba(0,0,0,.8);
 }
 
-.register span {
-    font-size: 35px;
-    right: 90px;
-    top: 30px;
-    position: absolute;
-    display: block;
-    border: 2px solid rgba(227, 27, 35, 1);
-    border-radius: 20px;
-    background-origin: border-box;
-    background-clip: content-box, border-box;
-    padding: 8px 22px;
-    color: rgba(227, 27, 35, 1);
+.navbar ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+.navbar ul li {
+    float: left;
+    width: 200px;
+    height: 80px;
+    background-color: black;
+    opacity: .8;
+    color: white;
+    line-height: 40px;
+    font-size: 30px;
+    text-align: center;
+    margin-right: 2px;
+    cursor: pointer;
+    list-style: none;
+}
+
+.navbar ul li a {
     text-decoration: none;
+    color: white;
+    display: block;
+}
+
+.navbar ul li a:hover {
+    background: rgba(227, 27, 35, .8);
+}
+
+.navbar ul li ul li {
+    display: none;
+}
+
+.navbar li:hover ul li {
+    display: block;
+}
+
+.menu {
+    position: absolute;
+    list-style: none;
+    display: block;
+    top: 50%;
+    left: 50%;
+    color: white;
+    float: 
+}
+
+.menu h1 {
+    font-size: 70px;
 }
 
 
